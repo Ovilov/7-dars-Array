@@ -121,14 +121,11 @@ let kimKerak = prompt("Siz kimni izlayapsiz ?");
 
 const ismlar = ["Salim", "Said", "Ilhom"];
 
-for (i = 0; i < ismlar.length; i++) {
-  if (ismlar[i] == kimKerak) {
-    alert(`Ha bizda ${ismlar[i]} bor`);
-    break;
-  } else {
-    alert(`Bizda ${kimKerak} ismli inson yo'q`);
-  }
-  break;
+if (ismlar.includes(kimKerak)) {
+  alert(`Ha bizda ${kimKerak} bor`);
+} else {
+  alert(`Bizda ${kimKerak} ismli inson yo'q`);
 }
 
 /////////////////////////////////////////////
+
