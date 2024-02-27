@@ -57,7 +57,6 @@
 
 /////////////////////////////////////////////
 
-
 // let fruits = ['Apple', 'Banana', 'Grape'];
 
 // fruits.fill("Cherry");
@@ -117,15 +116,91 @@
 
 ///////////////////////////////////////////////
 
-let kimKerak = prompt("Siz kimni izlayapsiz ?");
+// let kimKerak = prompt("Siz kimni izlayapsiz ?");
 
-const ismlar = ["Salim", "Said", "Ilhom"];
+// const ismlar = ["Salim", "Said", "Ilhom"];
 
-if (ismlar.includes(kimKerak)) {
-  alert(`Ha bizda ${kimKerak} bor`);
-} else {
-  alert(`Bizda ${kimKerak} ismli inson yo'q`);
-}
+// if (ismlar.includes(kimKerak)) {
+//   alert(`Ha bizda ${kimKerak} bor`);
+// } else {
+//   alert(`Bizda ${kimKerak} ismli inson yo'q`);
+// }
 
 /////////////////////////////////////////////
 
+// const ismlar = ["Salim", "Said", "Ilhom"];
+
+// for (let i = 0 ; i < ismlar.length ; i++){
+//   result = ismlar[i] + "bek" ;
+//   alert(result)
+// }
+
+/////////////////////////////////////////////
+
+// const viloyatNomi = prompt("Qaysi viloyat kerak");
+
+// switch (viloyatNomi) {
+//   case "Namangan":
+//     alert("Siz so'ragan viloyatda 3 066 100 nafar odam yashaydi");
+//     break;
+//   case "Andijon":
+//     alert("Siz so'ragan viloyatda 3 705 000 nafar odam yashaydi");
+//     break;
+//   case "Farg'ona":
+//     alert("Siz so'ragan viloyatda 3 162 340 nafar odam yashaydi");
+//     break;
+//   case "Toshkent":
+//     alert("Siz so'ragan viloyatda 7 820 110 nafar odam yashaydi");
+//     break;
+//   case "Jizzax":
+//     alert("Siz so'ragan viloyatda 2 041 000 nafar odam yashaydi");
+//     break;
+//   case "Sirdaryo":
+//     alert("Siz so'ragan viloyatda 1 700 192 nafar odam yashaydi");
+//     break;
+//   case "Samarqand":
+//     alert("Siz so'ragan viloyatda 3 005 926 nafar odam yashaydi");
+//     break;
+//   case "Buhoro":
+//     alert("Siz so'ragan viloyatda 2 896 640 nafar odam yashaydi");
+//     break;
+//   case "Qashqadaryo":
+//     alert("Siz so'ragan viloyatda 2 106 090 nafar odam yashaydi");
+//     break;
+//   case "Surhondaryo":
+//     alert("Siz so'ragan viloyatda 2 009 800 nafar odam yashaydi");
+//     break;
+//   case "Navoyi":
+//     alert("Siz so'ragan viloyatda 1 030 000 nafar odam yashaydi");
+//     break;
+//   case "Xorazm":
+//     alert("Siz so'ragan viloyatda 3 490 970 nafar odam yashaydi");
+//     break;
+//   case "Nukus":
+//     alert("Siz so'ragan viloyatda 4 876 689 nafar odam yashaydi");
+//     break;
+//   default:
+//     alert("Bunday viloyat topilmadi ");
+// }
+
+/////////////////////////////////////////////
+
+const login = prompt("20 ta elementdan iborat login yarating :");
+
+if (login.length < 20) {
+  alert(
+    `Siz ${login.length} ta element kiritdingiz . yana ${
+      20 - login.length
+    } ta element kiriting !`
+  );
+} else if (login.length > 20) {
+  alert(
+    `Siz ${login.length} ta element kiritdingiz . ${
+      login.length - 20
+    } ta element olib tashlang !`
+  );
+} else {
+  alert(`Login to'g'ri kiritildi !`);
+}
+
+/////////////////////////////////////////////
