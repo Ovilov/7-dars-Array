@@ -108,3 +108,39 @@
 
 //////////////////////////////////////
 
+// let ism = prompt("Ismongizni kiriting :");
+// let yosh = +prompt("Yoshingizni kiriting :");
+
+// let yil = 2024 - yosh;
+// let oy = yosh * 12;
+// let hafta = yosh * 54;
+// let kun = yosh * 365;
+// let soat = kun * 24;
+// let minut = soat * 60;
+// let sekund = minut * 60;
+
+// alert(
+//   `${ism} Siz ${yil} yilda tug'ulgansiz . Va siz ${
+//     oy
+//   } oy , ${hafta} hafta , ${kun} kun , ${soat} soat , ${
+//     minut
+//   } daqiqa , ${sekund} soniya yashagansiz !`
+// );
+
+///////////////////////////////////////////////
+
+let kimKerak = prompt("Siz kimni izlayapsiz ?")
+
+const ismlar = ["Salim" , "Said" , "Ilhom"]
+
+for (i = 0 ; i < (ismlar.length) ; i++) {
+    if (ismlar[i] == kimKerak ){
+        alert(`Ha bizda ${ismlar[i]} bor`)
+        break
+    }else {
+        alert(`Bizda ${kimKerak} ismli inson yo'q`)
+    }break
+}
+
+/////////////////////////////////////////////
+
