@@ -40,7 +40,6 @@
 
 // let numbers = [1, 2, 3, 4, 5];
 
-// // reversing the numbers array
 // let reversedArray = numbers.reverse();
 
 // console.log(reversedArray);
@@ -50,37 +49,28 @@
 //////////////////////////////////////////
 
 // let languages = ["JavaScript", "Python", "C++", "Java", "Lua"];
-
-// // reversing the order of languages array
 // let reversedArray = languages.reverse();
 
 // console.log("Reversed Array: ", reversedArray);
 
-// // modifies the original array
 // console.log("Original Array: ", languages);
 
 /////////////////////////////////////////////
 
-// // defining an array
+
 // let fruits = ['Apple', 'Banana', 'Grape'];
 
-// // filling every element of the array with 'Cherry'
 // fruits.fill("Cherry");
 
 // console.log(fruits);
 
 ///////////////////////////////////////////
 
-// // array definition
 // let language = ["JavaScript", "Python", "C", "C++"];
 
-// // replacing element of array from index 1 to 3 by 'JavaScript'
 // language.fill("JavaScript", 1, 3);
 
-// // printing the original array
 // console.log(language);
-
-// // output: [ 'JavaScript', 'JavaScript', 'JavaScript', 'C++']
 
 /////////////////////////////////////////
 // let names = ["Saidakbar", "Abubakr", "Abror", "Samandar", "Muhammadbilol"];
@@ -98,8 +88,6 @@
 
 // const number = [1 , 3 , 8 , 4 , 6 , 20 , 4 , 7, 7 , 10];
 // const newNumbers = []
-
-// // console.log(number.includes(1));
 
 // for (i = 0; i < number.length; i++) {
 //   let result = number[i];
@@ -129,18 +117,18 @@
 
 ///////////////////////////////////////////////
 
-let kimKerak = prompt("Siz kimni izlayapsiz ?")
+let kimKerak = prompt("Siz kimni izlayapsiz ?");
 
-const ismlar = ["Salim" , "Said" , "Ilhom"]
+const ismlar = ["Salim", "Said", "Ilhom"];
 
-for (i = 0 ; i < (ismlar.length) ; i++) {
-    if (ismlar[i] == kimKerak ){
-        alert(`Ha bizda ${ismlar[i]} bor`)
-        break
-    }else {
-        alert(`Bizda ${kimKerak} ismli inson yo'q`)
-    }break
+for (i = 0; i < ismlar.length; i++) {
+  if (ismlar[i] == kimKerak) {
+    alert(`Ha bizda ${ismlar[i]} bor`);
+    break;
+  } else {
+    alert(`Bizda ${kimKerak} ismli inson yo'q`);
+  }
+  break;
 }
 
 /////////////////////////////////////////////
-
